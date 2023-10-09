@@ -1,0 +1,15 @@
+¿Qué se puede hacer con Terraform?
+Terraform puede automatizar y gestionar prestaciones a nivel de infraestructura como servicio (IaaS), plataforma como servicio (PaaS) e incluso software como servicio (SaaS), y crear todos estos recursos en todos los proveedores simultáneamente.
+Terraform es una herramienta de configuración de software diseñada para potenciar la automatización de múltiples procesos a través de conceptos como el de infrastructure as code. A través de su lenguaje permite crear definiciones (llamadas resources) de objetos o recursos de infraestructura.
+
+Terraform consta de elementos como:
+Núcleo Terraform. Consiste en recibir la información y tomar decisiones con ella.
+Proveedores. Son las herramientas con las que se crea la infraestructura.
+
+¿Qué se puede hacer con Terraform?
+La propia web de Terraform propone varios escenarios en los que se podría usar esta tecnología:
+
+Automatización de la infraestructura digital: servidores, bases de datos, firewall…
+Administrar un entorno multinube (AWS, Azure, GCP…) a pesar de sus diferentes interfaces o flujos de trabajo. Esto es ideal cuando el entorno se ha construido antes de implantar Terraform y hay que administrar diferentes entornos cloud. En cualquier caso, también puede administrar una sola aplicación y de un solo proveedor.
+Gestionar clústeres de Kubernetes e imágenes de máquinas virtuales. Sobre estas últimas, HCP Packer recopila imágenes de entornos multinube y las puede suministrar para una API.
+Las configuraciones se pueden compartir y volver a usar cuando se crea necesario.
