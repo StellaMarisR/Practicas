@@ -1,0 +1,35 @@
+Que es un contenedor?
+Los contenedores son paquetes de software ligeros que contienen todas las dependencias necesarias para ejecutar la aplicación de software contenida.
+
+Ventajas
+* Velocidad de iteración
+Como los contenedores son ligeros y solo incluyen software de alto nivel, son muy rápidos de modificar e iterar.
+* Ecosistema estable
+La mayoría de los sistemas de entornos en tiempo de ejecución de contenedores ofrecen un repositorio público alojado de contenedores prefabricados. 
+Estos repositorios de contenedores contienen muchas aplicaciones de software populares, como bases de datos o sistemas de mensajería, y se pueden descargar y ejecutar al instante, lo que ahorra tiempo a los equipos de desarrollo
+
+Inconvenientes
+* Vulnerabilidades de hosts compartidos
+Todos los contenedores comparten el mismo sistema de hardware subyacente por debajo de la capa del sistema operativo; es posible que una vulnerabilidad de un contenedor pueda salir de este y afectar al hardware compartido. Los entornos en tiempo de ejecución de contenedores más populares tienen repositorios públicos de contenedores prefabricados. 
+Existe un riesgo de seguridad al utilizar una de estas imágenes públicas, ya que pueden contener vulnerabilidades o pueden ser un suculento objetivo para los delincuentes.
+
+Que es una maquina virtual?
+Las máquinas virtuales son paquetes de software pesados que proporcionan una emulación completa de dispositivos de hardware de bajo nivel, como la CPU, el disco y los dispositivos de red. Las máquinas virtuales también pueden incluir una pila de software complementaria para ejecutarse en el hardware emulado. 
+Estos paquetes de hardware y software combinados producen una instantánea totalmente funcional de un sistema informático.
+
+Ventajas
+* Seguridad de aislamiento total
+Las máquinas virtuales se ejecutan de forma aislada como un sistema totalmente independiente. 
+Esto significa que las máquinas virtuales son inmunes a cualquier vulnerabilidad o interferencia de otras máquinas virtuales en un host compartido. 
+Una máquina virtual individual no está exenta de sufrir un ataque informático debido a una vulnerabilidad, pero estará aislada y no podrá infectar ninguna otra máquina virtual vecina.
+* Desarrollo interactivo
+Los contenedores suelen ser definiciones estáticas de las dependencias esperadas y la configuración necesaria para ejecutar el contenedor. 
+Las máquinas virtuales son más dinámicas y se pueden desarrollar de forma interactiva. Una vez que se ha especificado la definición básica de hardware para una máquina virtual, esta se puede tratar como un ordenador básico.
+El software se puede instalar de forma manual en la máquina virtual y se puede realizar una captura de esta para registrar el estado de configuración actual.
+Las instantáneas de la máquina virtual se pueden utilizar para restaurar la máquina virtual a ese punto en el tiempo o para hacer girar máquinas virtuales adicionales con esa configuración.
+
+Inconvenientes
+*Velocidad de iteración
+El desarrollo y la regeneración de las máquinas virtuales requieren mucho tiempo porque abarcan un sistema de pila completo. Se puede tardar mucho en regenerar cualquier modificación de una instantánea de la máquina virtual, así como en validar que se comporta como se espera.
+*Coste del tamaño de almacenamiento
+Las máquinas virtuales pueden ocupar mucho espacio de almacenamiento. Pueden alcanzar con rapidez un tamaño de varios gigabytes. Esto se puede derivar en incidencias de falta de espacio en el disco de la máquina anfitriona de las máquinas virtuales
