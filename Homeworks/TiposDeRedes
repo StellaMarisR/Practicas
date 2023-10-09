@@ -1,0 +1,17 @@
+-- PAN -- 
+Tipo de red pequeña y basica. Se compone de un módem, un ordenar o dos, telefonos, etc. 
+Son administrados por una sola persona.
+Es una red que conectac dispositivos en un área reducida e inmediata.
+
+-- LAN --
+Se trata de un tipo de red muy común y muy usado que conecta un grupo de ordenadores o dispositivos ubicados en una misma estancia para compartir información y recursos.
+
+-- CAN --
+Más grandes que las LAN, pero más pequeñas que las que veremos a continuación, estos tipos de redes se ven típicamente en universidades. Así, nos encontramos ante uno de los tipos de redes informáticas más frecuentes en el ámbito académico.
+
+-- MAN --
+Son redes más grandes y que abarcan más que las LAN y que las CAN. Este tipo de redes abarcan un área geográfica determinada, normalmente un pueblo o ciudad. Este tipo de redes informáticas suelen estar compuestas de varias redes LAN conectadas entre ellas.
+
+-- WAN --
+Las redes WAN son las que conectan los ordenadores que se encuentran a distancias físicas considerables. Permiten que los dispositivos se conecten de forma remota entre sí a través de una gran red para comunicarse incluso cuando están a kilómetros de distancia.
+Internet es el ejemplo más básico de una WAN
