@@ -1,0 +1,57 @@
+ip r O ip route
+to find out router IP address
+
+ip r | grep default
+Default Gateway: puerta de enlace predeterminada es el nodo que sirve como enlace entre dos redes
+
+DNS: Sistema de nombres de dominio, el cual es una gran base de datos distribuida que traduce nombres de dominio en direcciones IP
+
+NAT:Es un mecanismo utilizado por routers IP para cambiar paquetes entre dos redes que asignan mutuamente direcciones incompatibles
+
+Comando 'df -h': el comando df muestra el espacio en disco utilizado por el sistema de ficheros
+
+What is a file system and what filesystem do you have?
+Un sistema de archivo de disco es un elemento que controla como se almacena y recuperan los datos, que puede estar conectada directa o indirectamente a la computadora.
+What is Inode?
+Inode es una estructura de datos propia de los sistemas de archivos tradicionalemnte empleados en los sistemas operativos tipo UNIX como es el caso de Linux.
+
+ls -l 
+Este comando se utiliza para listar archivos y direcciones en un formato largo, proporciona informacion detallada
+
+ls -rta
+Lista archivos y directorios en orden inverso e incluye archivos y directorios ocultos.
+
+There are three kinds of file permissions in Linux: 
+Read (r): Allows a user or group to view a file. 
+Write (w): Permits the user to write or modify a file or directory. 
+Execute (x): A user or grup with execute permissions can execute a file or view a directory.
+
+How do you read file permissions?
+he interesting permissions from the vimrc listing are:
+rw-r--r–
+
+The first set of permissions applies to the owner of the file. The second set of permissions applies to the user group that owns the file. The third set of permissions is generally referred to as "others." All Linux files belong to an owner and a group.
+
+When permissions and users are represented by letters, that is called symbolic mode. For users, u stands for user owner, g for group owner, and o for others. For permissions, r stands for read, w for write, and x for execute.
+
+When the system is looking at a file's permissions to determine what information to provide you when you interact with a file, it runs through a series of checks:
+
+It first checks to see whether you are the user that owns the file. If so, then you are granted the user owner's permissions, and no further checks will be completed.
+If you are not the user that owns the file, next your group membership is validated to see whether you belong to the group that matches the group owner of the file. If so, then you're covered under the group owner field of permissions, and no further checks will be made.
+"Others" permissions are applied when the account interacting with the file is neither the user owner nor in the group that owns the files. Or, to put it another way, the three fields are mutually exclusive: You can not be covered under more than one of the fields of permission settings on a file.
+
+What is a PID?
+is a process identification (PID) file
+Un controlador PID es un instrumento utilizado en aplicaciones de control industrial para regular la temperatura, el flujo, la presión, la velocidad y otras variables del proceso.
+
+What do man/mkdir/rm/touch /mv/cp commands do?
+Man: Muestra las páginas de manual, que se utiliza para acceder a la documentación disponible de sus herramientas y así aprender sobre comandos
+Mkdir crear un nuevo subdirectorio o carpeta del sistema de archivos
+Rm: usada para eliminar archivos y directorios del sistema de archivos
+Touch: crear archivos vacíos y cambiar marcas de tiempo de archivos o carpetas
+Mv: mover o renombrar archivos o directorios del sistema de archivos
+Cp: copiar archivos individuales o de carpetas enteras.
+
+
+
+
