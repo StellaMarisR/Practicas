@@ -1,16 +1,16 @@
 #!/bin/bash
 f=contacts.txt
 while true; do
-  echo "1. Crear contacto"
-  echo "2. Buscar por campo"
-  echo "3. Ayuda"
-  echo "4. Salir"
-  read -p "Seleccione una opción (1/2/3/4): " o
+  echo "1. Create contact"
+  echo "2. Search contac"
+  echo "3. Help"
+  echo "4. Quite"
+  read -p "Select an option (1/2/3/4): " o
   case $o in
-    1) IFS=- read -p "Nombre-Apellido-Email-Teléfono: " n a e t; echo "$n - $a - $e - $t" >> $f;;
-    2) read -p "Buscar por: " s; grep -i "$s" $f;;
-    3) echo "Aplicación de gestión de contactos.";;
+    1) IFS=- read -p "Name-Lastname-Email-Phone: " n a e t; echo "$n - $a - $e - $t" >> $f;;
+    2) read -p "Search by: " s; grep -i "$s" $f;;
+    3) echo "Contact management app.";;
     4) exit 0;;
-    *) echo "Opción no válida";;
+    *) echo "Invalid option";;
   esac
 done
